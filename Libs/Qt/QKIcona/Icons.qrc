@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/DzIcona">
+        <file>Icons/DzIcona/about.png</file>
+        <file>Icons/DzIcona/close.png</file>
+        <file>Icons/DzIcona/export.png</file>
+        <file>Icons/DzIcona/help.png</file>
+        <file>Icons/DzIcona/hide.png</file>
+        <file>Icons/DzIcona/home.png</file>
+        <file>Icons/DzIcona/mail.png</file>
+        <file>Icons/DzIcona/pref.png</file>
+        <file>Icons/DzIcona/print.png</file>
+        <file>Icons/DzIcona/show.png</file>
+        <file>Icons/DzIcona/zoom-.png</file>
+        <file>Icons/DzIcona/zoom.png</file>
+        <file>Icons/DzIcona/zoom+.png</file>
+        <file>Icons/DzIcona/zoom1.png</file>
+		<file>Icons/DzIcona/icona.png</file>
+    </qresource>
+    <qresource prefix="/LikeSky">
+        <file>Icons/LikeSky/about.png</file>
+        <file>Icons/LikeSky/close.png</file>
+        <file>Icons/LikeSky/export.png</file>
+        <file>Icons/LikeSky/help.png</file>
+        <file>Icons/LikeSky/hide.png</file>
+        <file>Icons/LikeSky/home.png</file>
+        <file>Icons/LikeSky/mail.png</file>
+        <file>Icons/LikeSky/pref.png</file>
+        <file>Icons/LikeSky/print.png</file>
+        <file>Icons/LikeSky/show.png</file>
+        <file>Icons/LikeSky/zoom-.png</file>
+        <file>Icons/LikeSky/zoom.png</file>
+        <file>Icons/LikeSky/zoom+.png</file>
+        <file>Icons/LikeSky/zoom1.png</file>
+		<file>Icons/LikeSky/icona.png</file>
+    </qresource>
+	<qresource prefix="/Goldy">
+        <file>Icons/Goldy/about.png</file>
+        <file>Icons/Goldy/close.png</file>
+        <file>Icons/Goldy/export.png</file>
+        <file>Icons/Goldy/help.png</file>
+        <file>Icons/Goldy/hide.png</file>
+        <file>Icons/Goldy/home.png</file>
+        <file>Icons/Goldy/mail.png</file>
+        <file>Icons/Goldy/pref.png</file>
+        <file>Icons/Goldy/print.png</file>
+        <file>Icons/Goldy/show.png</file>
+        <file>Icons/Goldy/zoom-.png</file>
+        <file>Icons/Goldy/zoom.png</file>
+        <file>Icons/Goldy/zoom+.png</file>
+        <file>Icons/Goldy/zoom1.png</file>
+		<file>Icons/Goldy/icona.png</file>
+    </qresource>
+</RCC>

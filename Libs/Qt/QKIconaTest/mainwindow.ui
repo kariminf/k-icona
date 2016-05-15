@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>set icon</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="style">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>79</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>DzIcona</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LikeSky</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Goldy</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="iconName">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>79</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>icona</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>about</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>close</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>export</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>help</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>hide</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>home</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mail</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>pref</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>print</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>show</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zoom-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zoom</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zoom1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>zoom+</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>0</width>
+     <height>60</height>
+    </size>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionKiki"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionKiki">
+   <property name="text">
+    <string>kiki</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

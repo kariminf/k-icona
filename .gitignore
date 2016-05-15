@@ -3,3 +3,8 @@
 *.jpg
 *.jpeg
 *.ico
+
+#Qt
+Libs/Qt/*.pro.user
+Libs/Qt/QKIcona-lib
+Libs/Qt/QKIcona-tst
