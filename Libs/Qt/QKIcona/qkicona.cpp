@@ -1,15 +1,20 @@
 #include "qkicona.h"
 
 
-void QKIcona::setIcon(QAction * action, QString styleName, QString name)
+QMap<QString, QIcon> QKIcona::availableStyles()
 {
-    QString iconPath = ":/Icones/" + styleName + "/" + name + ".png";
+    QMap<QString, QIcon> result;
 
-    QResource fileRessource(iconPath);
-    if(fileRessource.isValid()){
-        action->setIcon(QIcon(iconPath));
-    }
+    result.insert("Goldy", getIcon("Goldy", "icona"));
+    result.insert("LikeSky", getIcon("LikeSky", "icona"));
+    result.insert("DzIcona", getIcon("DzIcona", "icona"));
 
+    return result;
+}
+
+QString QKIcona::getDefaultStyle()
+{
+    return "Goldy";
 }
 
 QIcon QKIcona::getIcon(QString styleName, QString name)

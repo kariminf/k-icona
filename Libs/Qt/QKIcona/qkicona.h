@@ -6,12 +6,14 @@
 #include <QResource>
 #include <QAction>
 #include <QDebug>
+#include <QMap>
 
 class QKICONASHARED_EXPORT QKIcona
 {
 
 public:
-    void setIcon(QAction *action, QString styleName, QString name);
+    QMap<QString, QIcon> availableStyles ();
+    QString getDefaultStyle();
     QIcon getIcon(QString styleName, QString name);
 };
 
