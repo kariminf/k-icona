@@ -4,10 +4,15 @@
 #
 #-------------------------------------------------
 
+win32{
+TARGET = libQKIcona
+TARGET_EXT = .dll
+}
+unix: TARGET = QKIcona
 
-
-TARGET = QKIcona
 TEMPLATE = lib
+
+VERSION = 1.0.0
 
 DEFINES += QKICONA_LIBRARY
 
