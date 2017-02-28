@@ -51,6 +51,11 @@
       <string>Goldy</string>
      </property>
     </item>
+    <item>
+     <property name="text">
+      <string>Alien</string>
+     </property>
+    </item>
    </widget>
    <widget class="QComboBox" name="iconName">
     <property name="geometry">
@@ -144,7 +149,7 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>20</height>
+     <height>30</height>
     </rect>
    </property>
   </widget>
@@ -182,9 +187,7 @@
     <string>kiki</string>
    </property>
    <property name="font">
-    <font>
-     <pointsize>10</pointsize>
-    </font>
+    <font/>
    </property>
   </action>
  </widget>

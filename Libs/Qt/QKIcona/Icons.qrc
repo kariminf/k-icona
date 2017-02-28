@@ -50,4 +50,10 @@
         <file>Icons/Goldy/zoom1.png</file>
 		<file>Icons/Goldy/icona.png</file>
     </qresource>
+	<qresource prefix="/Alien">
+        <file>Icons/Alien/about.png</file>
+        <file>Icons/Alien/close.png</file>
+        <file>Icons/Alien/export.png</file>
+		<file>Icons/Alien/icona.png</file>
+    </qresource>
 </RCC>
