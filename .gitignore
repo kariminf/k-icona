@@ -6,5 +6,7 @@
 
 #Qt
 Libs/Qt/*.pro.user
+Libs/Qt/*.pro.user.*
+Libs/Qt/QKIcona/Icons/
 Libs/Qt/QKIcona-lib
 Libs/Qt/QKIcona-tst
